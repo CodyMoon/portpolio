@@ -1,0 +1,95 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 160px;
+    /* Same as the width of the sidenav */
+    /* Increased text to enable scrolling */
+    
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+.main{
+    align-content: center;
+}
+.main p{
+    font-family: 'DM Serif Text', serif;
+    text-align:center;
+    font-size: 30px;
+}
+.info{
+    width:90%;
+}
+.containerActivity p{
+    color: rgb(87, 86, 86);
+}
+
+.containerActivity{
+    margin-top:15px;
+    width:70%;
+    height: 400px;
+    margin-left: 140px;
+    border-radius: 7px;
+    border:3px solid;
+    border-color: #424141;
+}
+.containerActivity h1{
+    font-style:normal;
+    font-family: 'DM Serif Text', serif;
+    text-align:center;
+    font-size: 30px;
+}
+
+.container h1{
+    font-style:normal;
+    font-family: 'DM Serif Text', serif;
+    text-align:center;
+    font-size: 30px;
+}
+
+.container{
+    width:70%;
+    height: 350px;
+    margin-left: 140px;
+    border-radius: 7px;
+    border:3px solid;
+    border-color: #424141;
+}
+
+.container p{
+    color: rgb(87, 86, 86);
+}
+

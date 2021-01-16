@@ -1,0 +1,107 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 160px;
+    /* Same as the width of the sidenav */
+    /* Increased text to enable scrolling */
+    
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+.jumbotron{
+    margin-left: 15px;
+    height: 400px;
+    background-image: url('../nightsky.jpg');
+    background-size: cover;
+    color: white;
+    text-shadow: black 0.2em 0.2em 0.2em;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.title{
+    font-size: 70px;
+    font-family: 'Fraunces' , serif;
+}
+
+.space{
+    font-family: 'Fraunces' , serif;
+    margin-left :20%;
+    font-size: 75px;
+     
+}
+
+.name{
+    margin-right:5%;
+    font-size: 50px;
+    font-family: 'Courgette', cursive;
+    font-weight: bold;
+    color: black;
+    text-align:right;
+}
+
+.subtitle{
+    text-align: center;
+}
+
+.subtitle p{
+    font-size: 30px;
+    font-family: 'Courgette', cursive;
+    animation: pulsecolor 4s infinite;
+}
+
+
+@keyframes pulsecolor {
+    0% {
+      color: lightpink;
+    }
+    
+      25% {
+      color: white;
+    }
+    50% {
+      color: #3205ac;
+    }
+      75% {
+      color: white;
+    }
+    
+      100% {
+      color: #ff0380;
+    }
+  }
+  
