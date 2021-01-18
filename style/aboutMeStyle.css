@@ -247,18 +247,38 @@ body {
         color:#424141;
         margin-left:10px;
     }
-    .container h1{
-        font-size: 25px;
-    }
-    .container p{
-        font-size: 15px;
+
+    .main p{
+        font-size:25px;
     }
 
-    .containerActivity h1{
-        font-size: 25px;
+    .name{
+        margin-left:120px;
     }
-    
+    .birth{
+        margin-left:120px;
+    }
+    .nation{
+        margin-left:120px;
+    }
+
+    .container{
+        margin-left:90px;
+    }
+
+    .containerActivity{
+        margin-left:90px;
+    }
+    .container h1{
+        font-size: 20px;
+    }
+    .container p{
+        font-size:20px;
+    }
+    .containerActivity h1{
+        font-size: 20px;
+    }
     .containerActivity p{
-        font-size:  15px;
+        font-size:15px;
     }
 }
