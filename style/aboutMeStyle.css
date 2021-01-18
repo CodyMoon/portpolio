@@ -89,7 +89,7 @@ body {
 
 .container{
     width:70%;
-    height: 350px;
+    height: 370px;
     margin-left: 140px;
     border-radius: 7px;
     border:3px solid;
@@ -111,7 +111,9 @@ body {
     .sidenav a {
         font-size: 15px;
     }
-
+    .container{
+        height:400px;
+    }
 }
 
 @media screen and (min-width:600px) and (max-width:767px){
@@ -139,6 +141,23 @@ body {
         color:#424141;
         margin-left:10px;
     }
+    .main p{
+        font-size:15px;
+    }
+
+    .container{
+        height:400px;
+    }
+    .containerActivity{
+        height:450px;
+    }
+    .container p{
+        font-size:25px;
+    }
+    .containerActivity p{
+        font-size:25px;
+    }
+    
 }
 
 @media screen and (min-width:481px) and (max-width:599px){
@@ -168,10 +187,39 @@ body {
         color:#424141;
         margin-left:10px;
     }
+
+    .main p{
+        font-size:25px;
+    }
+
+    .name{
+        margin-left:120px;
+    }
+    .birth{
+        margin-left:120px;
+    }
+    .nation{
+        margin-left:120px;
+    }
+
+    .container{
+        margin-left:90px;
+    }
+
+    .containerActivity{
+        margin-left:90px;
+    }
+    .container p{
+        font-size:20px;
+    }
+    .containerActivity p{
+        font-size:20px;
+    }
 }
 
 @media screen and (max-width:480px){
     .main{
+        justify-content:center;
         margin-left:0;
     }
     .sidenav {
@@ -195,8 +243,22 @@ body {
         background: white;
     }
     .sidenav.active a{
-        font-size:15px;
+        font-size:10px;
         color:#424141;
         margin-left:10px;
+    }
+    .container h1{
+        font-size: 25px;
+    }
+    .container p{
+        font-size: 15px;
+    }
+
+    .containerActivity h1{
+        font-size: 25px;
+    }
+    
+    .containerActivity p{
+        font-size:  15px;
     }
 }
