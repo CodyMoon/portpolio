@@ -100,6 +100,7 @@ body {
     color: rgb(87, 86, 86);
 }
 
+
 @media screen and (min-width: 768px) and (max-width:1024px){
     .main{
         margin-left:100px;
@@ -253,21 +254,23 @@ body {
     }
 
     .name{
-        margin-left:120px;
+        margin-left:100px;
     }
     .birth{
-        margin-left:120px;
+        margin-left:100px;
     }
     .nation{
-        margin-left:120px;
+        margin-left:100px;
     }
 
     .container{
         margin-left:90px;
+        height:350px;
     }
 
     .containerActivity{
         margin-left:90px;
+        height:300px;
     }
     .container h1{
         font-size: 20px;

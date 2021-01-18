@@ -5,7 +5,10 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/projectStyle.css">
-    <script src="https://kit.fontawesome.com/fa9821e7b7.js" crossorigin="anonymous"></script></head>
+    <script src="https://kit.fontawesome.com/fa9821e7b7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">   
+</head>
 
 </head>
 
@@ -20,22 +23,75 @@
     <a href="#" class='navbar__toggleBtn'>
         <i class="fas fa-bars"></i>
     </a>
-    <script>
-        function openNav() {
-            document.getElementById('mysidenav').style.width = '250px';
-        }
-        function closeNav() {
-            document.getElementById('mysidenav').style.width = '0';
-        }
-    </script>
-    <script>
-        const toggleBtn = document.querySelector('.navbar__toggleBtn');
-        const menu = document.querySelector('.sidenav');
-        toggleBtn.addEventListener('click', ()=>{
+    <li>
+        <div class="projectList">
+            <ul>
+                <il>
+                    <img src="nightsky.jpg" width="275px" height="275px">
+                </il>
+                <il class="projectName" style="font-family: 'Lora', serif; font-weight: bold; font-size:20px;">Reservation System (2020)<br><il>
+                <il class="description" style="font-family: 'Lora', serif; font-size:15px;">I worked on connecting database in this project. Using HSQL and Android Studio, user can make a reservation for local restaurant. This system allows user make, modify, delete, and review the reservation. </il>
+            </ul>
+        </div>
+        <div class="projectList1">
+            <ul>
+                <il>
+                    <img src="nightsky.jpg" width="275px" height="275px">
+                </il>
+                <il class="project1Name" style="font-family: 'Lora', serif; font-weight: bold; font-size:20px;">Lecture Summary (2020)<br><il>
+                <il class="description" style="font-family: 'Lora', serif; font-size:15px;">I worked on connecting database in this project. Using HSQL and Android Studio, user can make a reservation for local restaurant. This system allows user make, modify, delete, and review the reservation. </il>
+            </ul>
+        </div>
+
+        <div class="projectList2">
+            <ul>
+                <il>
+                    <img src="nightsky.jpg" width="275px" height="275px">
+                </il>
+                <il class="project2Name" style="font-family: 'Lora', serif; font-weight: bold; font-size:20px;">Reservation System (2020)<br><il>
+                <il class="description" style="font-family: 'Lora', serif; font-size:15px;">I worked on connecting database in this project. Using HSQL and Android Studio, user can make a reservation for local restaurant. This system allows user make, modify, delete, and review the reservation. </il>
+            </ul>
+        </div>
+
+        <div class="projectList3">
+            <ul>
+                <il>
+                    <img src="nightsky.jpg" width="275px" height="275px">
+                </il>
+                <il class="project3Name" style="font-family: 'Lora', serif; font-weight: bold; font-size:20px;">Reservation System (2020)<br><il>
+                <il class="description" style="font-family: 'Lora', serif; font-size:15px;">I worked on connecting database in this project. Using HSQL and Android Studio, user can make a reservation for local restaurant. This system allows user make, modify, delete, and review the reservation. </il>
+            </ul>
+        </div>
+
+        <div class="projectList4">
+            <ul>
+                <il>
+                    <img src="nightsky.jpg" width="275px" height="275px">
+                </il>
+                <il class="project3Name" style="font-family: 'Lora', serif; font-weight: bold; font-size:20px;">Reservation System (2020)<br><il>
+                <il class="description" style="font-family: 'Lora', serif; font-size:15px;">I worked on connecting database in this project. Using HSQL and Android Studio, user can make a reservation for local restaurant. This system allows user make, modify, delete, and review the reservation. </il>
+            </ul>
+        </div>
+
+        <div class="projectList4">
+            <ul>
+                <il>
+                    <img src="nightsky.jpg" width="275px" height="275px">
+                </il>
+                <il class="project3Name" style="font-family: 'Lora', serif; font-weight: bold; font-size:20px;">Reservation System (2020)<br><il>
+                <il class="description" style="font-family: 'Lora', serif; font-size:15px;">I worked on connecting database in this project. Using HSQL and Android Studio, user can make a reservation for local restaurant. This system allows user make, modify, delete, and review the reservation. </il>
+            </ul>
+        </div>
+    <li>
+
+        <script>
+            const toggleBtn = document.querySelector('.navbar__toggleBtn');
+            const menu = document.querySelector('.sidenav');
+            toggleBtn.addEventListener('click', () => {
                 menu.classList.toggle('active');
             }
-        )
-    </script>
+            )
+        </script>
 </body>
 
 </html>

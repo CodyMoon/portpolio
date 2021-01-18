@@ -39,7 +39,69 @@ body {
     font-size: 24px;
     color: rgb(204, 105, 13);
 }
+.projectList{
+    display:inline-block;
+    margin-left:100px;
+    width: 400px;
+    height : 500px;
+}
+.projectList img{
+    margin-left: 30px;
+}
+.projectName{
+    margin-left: 55px;
+}
+.projectList1{
+    display:inline-block;
+    margin-left:80px;
+    width: 400px;
+    height : 500px;
+}
+.projectList1 img{
+    margin-left: 30px;
+}
+.project1Name{
+    margin-left: 55px;
+}
 
+.projectList2{
+    display:inline-block;
+    margin-left:80px;
+    width: 400px;
+    height : 500px;
+}
+.projectList2 img{
+    margin-left: 30px;
+}
+.project1Name{
+    margin-left: 55px;
+}
+
+.projectList3{
+    display:inline-block;
+    margin-left:120px;
+    width: 400px;
+    height : 500px;
+}
+.projectList3 img{
+    margin-left: 30px;
+}
+.project3Name{
+    margin-left: 55px;
+}
+
+.projectList4{
+    display:inline-block;
+    margin-left:80px;
+    width: 400px;
+    height : 500px;
+}
+.projectList4 img{
+    margin-left: 30px;
+}
+.project4Name{
+    margin-left: 55px;
+}
 @media screen and (min-width: 768px) and (max-width:1024px){
     .main{
         margin-left:100px;
