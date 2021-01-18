@@ -10,33 +10,43 @@
         rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-</head>
+    <script src="https://kit.fontawesome.com/fa9821e7b7.js" crossorigin="anonymous"></script></head>
 
 <body>  
 
 
-    <!-- <div class="sidenav">
+    <div class="sidenav">
         <a href="index.html">Home</a>
         <a href="aboutMe.html">About me</a>
         <a href="project.html">#Project</a>
         <a href="#contact">Contact</a>
-    </div> -->
+    </div>
 
+    <a href="#" class='navbar__toggleBtn'>
+        <i class="fas fa-bars"></i>
+    </a>
     <div class="jumbotron">
-        <a href="aboutMe.html" class='navbar__toogleBtn' onclick ="toogleBtnOnclikc()">
-            <i class="fas fa-bars"></i>
-        </a>
         <div class="main">
-            <p class="title">I Am A </p>
+            <p class="title">I Am a</p>
             <p class="space">Software Engineer </p>
         </div>
     </div>
+    
     <div class="name">
         <p>WooSik Moon</p>
     </div>
+
     <div class="subtitle">
         <p>Process of Becoming a Software Engineer... 2018~</p>
     </div>
+    <script>
+        const toggleBtn = document.querySelector('.navbar__toggleBtn');
+        const menu = document.querySelector('.sidenav');
+        toggleBtn.addEventListener('click', ()=>{
+                menu.classList.toggle('active');
+            }
+        )
+    </script>
     </body>
 
 </html>

@@ -5,6 +5,8 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/projectStyle.css">
+    <script src="https://kit.fontawesome.com/fa9821e7b7.js" crossorigin="anonymous"></script></head>
+
 </head>
 
 <body>
@@ -15,7 +17,9 @@
         <a href="project.html">#Project</a>
         <a href="#contact">Contact</a>
     </div>
-
+    <a href="#" class='navbar__toggleBtn'>
+        <i class="fas fa-bars"></i>
+    </a>
     <script>
         function openNav() {
             document.getElementById('mysidenav').style.width = '250px';
@@ -23,6 +27,14 @@
         function closeNav() {
             document.getElementById('mysidenav').style.width = '0';
         }
+    </script>
+    <script>
+        const toggleBtn = document.querySelector('.navbar__toggleBtn');
+        const menu = document.querySelector('.sidenav');
+        toggleBtn.addEventListener('click', ()=>{
+                menu.classList.toggle('active');
+            }
+        )
     </script>
 </body>
 
