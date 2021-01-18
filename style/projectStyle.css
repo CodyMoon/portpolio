@@ -4,7 +4,7 @@ body {
 
 .sidenav {
     height: 100%;
-    width: 160px;
+    width: 10%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -32,13 +32,30 @@ body {
     /* Increased text to enable scrolling */
     
 }
+.navbar__toogleBtn{
+    display: none;
+    position: absolute;
+    left: 32px;
+    font-size: 24px;
+    color: rgb(204, 105, 13);
+}
 
-@media screen and (max-height: 450px) {
+@media screen and (min-width: 768px) and (max-width:1024px){
     .sidenav {
         padding-top: 15px;
     }
 
     .sidenav a {
-        font-size: 18px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .sidenav {
+        display: none;
+    }
+
+    .navbar__toogleBtn{
+        display: block;
     }
 }
