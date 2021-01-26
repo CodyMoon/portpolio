@@ -1,4 +1,5 @@
 body {
+    
     font-family: "Lato", sans-serif;
 }
 
@@ -39,65 +40,85 @@ body {
     font-size: 24px;
     color: rgb(204, 105, 13);
 }
+
+/*                */
 .projectList{
     display:inline-block;
-    margin-left:100px;
-    width: 400px;
+    margin-left:10%;
+    width: 25%;
     height : 500px;
 }
 .projectList img{
-    margin-left: 30px;
+    margin-left: 10%;
+    width: 275px;
+    height: 275px;
 }
 .projectName{
     margin-left: 55px;
 }
+
+/*                */
 .projectList1{
     display:inline-block;
-    margin-left:80px;
-    width: 400px;
+    margin-left:5%;
+    width: 25%;
     height : 500px;
 }
 .projectList1 img{
-    margin-left: 30px;
+    margin-left: 10%;
+    width: 275px;
+    height: 275px;
 }
 .project1Name{
     margin-left: 55px;
 }
 
+
+/*                */
 .projectList2{
     display:inline-block;
-    margin-left:80px;
-    width: 400px;
+    margin-left:5%;
+    width: 25%;
     height : 500px;
 }
 .projectList2 img{
-    margin-left: 30px;
+    margin-left: 10%;
+    width: 275px;
+    height: 275px;
 }
-.project1Name{
+.project2Name{
     margin-left: 55px;
 }
 
+
+/*                */
 .projectList3{
     display:inline-block;
-    margin-left:120px;
-    width: 400px;
+    margin-left:11.2%;
+    width: 25%;
     height : 500px;
 }
 .projectList3 img{
-    margin-left: 30px;
+    margin-left: 10%;
+    width: 275px;
+    height: 275px;
 }
 .project3Name{
     margin-left: 55px;
 }
 
+
+/*                */
 .projectList4{
     display:inline-block;
-    margin-left:80px;
-    width: 400px;
+    margin-left:5%;
+    width: 25%;
     height : 500px;
 }
 .projectList4 img{
-    margin-left: 30px;
+    margin-left: 10%;
+    width: 275px;
+    height: 275px;
 }
 .project4Name{
     margin-left: 55px;
@@ -112,6 +133,10 @@ body {
 
     .sidenav a {
         font-size: 15px;
+    }
+
+    .project1Name{
+        color:red;
     }
 
 }
