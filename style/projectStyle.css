@@ -395,6 +395,7 @@ h1{
     h1{
         margin-left:16px;
         font-size:18px;
+        text-align:center;
     }
 }
 
@@ -437,7 +438,7 @@ h1{
     .projectList img{
         width:170px;
         height:170px;
-        margin-left:20%;
+        margin-left:10%;
 
     }
 
@@ -449,7 +450,7 @@ h1{
     .projectList1 img{
         width:170px;
         height:170px;
-        margin-left:20%;
+        margin-left:10%;
 
     }
     .projectList2{
@@ -459,7 +460,7 @@ h1{
     }.projectList2 img{
         width:170px;
         height:170px;
-        margin-left:20%;
+        margin-left:10%;
 
     }
     .projectList3{
@@ -469,7 +470,7 @@ h1{
     }.projectList3 img{
         width:170px;
         height:170px;
-        margin-left:20%;
+        margin-left:10%;
     }
     .projectList4{
         width:70%;
@@ -478,7 +479,7 @@ h1{
     }.projectList4 img{
         width:170px;
         height:170px;
-        margin-left:20%;
+        margin-left:10%;
     }
     .projectList5{
         width:70%;
@@ -487,16 +488,18 @@ h1{
     }.projectList5 img{
         width:170px;
         height:170px;
-        margin-left:20%;
+        margin-left:10%;
     }
 
     .description p{
-        font-size:15px;
+        font-size:10px;
         text-align:center;
     }
 
     h1{
+        text-align:center;
         margin-left:16px;
-        font-size:18px;
+        font-size:13px;
     }
+
 }
