@@ -45,7 +45,7 @@ body {
 .jumbotron{
     margin-left: 15px;
     height: 400px;
-    background-image: url('../nightsky.jpg');
+    background-image: url('../images/nightsky.jpg');
     background-size: cover;
     color: white;
     text-shadow: black 0.2em 0.2em 0.2em;
@@ -72,6 +72,9 @@ body {
     font-weight: bold;
     color: black;
     text-align:right;
+}
+.name small{
+    font-size:25px;
 }
 
 .subtitle{
