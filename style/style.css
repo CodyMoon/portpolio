@@ -66,12 +66,19 @@ body {
 }
 
 .name{
-    margin-right:5%;
     font-size: 50px;
-    font-family: 'Courgette', cursive;
-    font-weight: bold;
+    font-family: 'Roboto', sans-serif;    font-weight: bold;
     color: black;
     text-align:right;
+}
+
+.introduce{
+    font-size:24px;
+}
+
+.name p{
+
+    text-align: center;
 }
 .name small{
     font-size:25px;
