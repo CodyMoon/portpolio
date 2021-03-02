@@ -239,7 +239,7 @@ input[type=checkbox] {
         background: none;
     }
     .sidenav.active a{
-        font-size:15px;
+        font-size:9px;
         color:#b3aeae;
         margin-left:10px;
     }
